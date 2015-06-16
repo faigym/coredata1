@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC9BEE0773C9D2A080BF66E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99434477605C7309D9C9B595 /* libPods.a */; };
+		59D9ECEB1B2E56FD00C0A169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D9ECEA1B2E56FD00C0A169 /* main.m */; };
+		59D9ECEE1B2E56FD00C0A169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D9ECED1B2E56FD00C0A169 /* AppDelegate.m */; };
+		59D9ECF11B2E56FD00C0A169 /* Gelt8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59D9ECEF1B2E56FD00C0A169 /* Gelt8.xcdatamodeld */; };
+		59D9ECF41B2E56FD00C0A169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D9ECF31B2E56FD00C0A169 /* ViewController.m */; };
+		59D9ECF91B2E56FD00C0A169 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D9ECF81B2E56FD00C0A169 /* Images.xcassets */; };
+		59D9ECFC1B2E56FD00C0A169 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59D9ECFA1B2E56FD00C0A169 /* LaunchScreen.xib */; };
+		59D9ED081B2E56FE00C0A169 /* Gelt8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D9ED071B2E56FE00C0A169 /* Gelt8Tests.m */; };
+		59D9ED131B2F1EA000C0A169 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D9ED121B2F1E9F00C0A169 /* Location.m */; };
+		59D9ED171B2F2D8300C0A169 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D9ED161B2F2D8300C0A169 /* TableViewController.m */; };
+		59D9ED1F1B2F877B00C0A169 /* Main 18-16-21-404.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D9ED1E1B2F877B00C0A169 /* Main 18-16-21-404.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59D9ED021B2E56FD00C0A169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59D9ECDD1B2E56FD00C0A169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59D9ECE41B2E56FD00C0A169;
+			remoteInfo = Gelt8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59D9ECE51B2E56FD00C0A169 /* Gelt8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gelt8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D9ECE91B2E56FD00C0A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D9ECEA1B2E56FD00C0A169 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59D9ECEC1B2E56FD00C0A169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59D9ECED1B2E56FD00C0A169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59D9ECF01B2E56FD00C0A169 /* Gelt8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gelt8.xcdatamodel; sourceTree = "<group>"; };
+		59D9ECF21B2E56FD00C0A169 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59D9ECF31B2E56FD00C0A169 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59D9ECF81B2E56FD00C0A169 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59D9ECFB1B2E56FD00C0A169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		59D9ED011B2E56FD00C0A169 /* Gelt8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gelt8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D9ED061B2E56FD00C0A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59D9ED071B2E56FE00C0A169 /* Gelt8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gelt8Tests.m; sourceTree = "<group>"; };
+		59D9ED111B2F1E9F00C0A169 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		59D9ED121B2F1E9F00C0A169 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		59D9ED151B2F2D8300C0A169 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		59D9ED161B2F2D8300C0A169 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		59D9ED1E1B2F877B00C0A169 /* Main 18-16-21-404.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main 18-16-21-404.storyboard"; sourceTree = "<group>"; };
+		97430EFF4AE859E4127CB333 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		99434477605C7309D9C9B595 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C83F9E4FEDAC9AB15C330A4D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59D9ECE21B2E56FD00C0A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC9BEE0773C9D2A080BF66E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D9ECFE1B2E56FD00C0A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59D9ECDC1B2E56FD00C0A169 = {
+			isa = PBXGroup;
+			children = (
+				59D9ECE71B2E56FD00C0A169 /* Gelt8 */,
+				59D9ED041B2E56FD00C0A169 /* Gelt8Tests */,
+				59D9ECE61B2E56FD00C0A169 /* Products */,
+				A2F3D3C7D8A1765630ED6B21 /* Pods */,
+				CC289175296059F0DBA05FC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59D9ECE61B2E56FD00C0A169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59D9ECE51B2E56FD00C0A169 /* Gelt8.app */,
+				59D9ED011B2E56FD00C0A169 /* Gelt8Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59D9ECE71B2E56FD00C0A169 /* Gelt8 */ = {
+			isa = PBXGroup;
+			children = (
+				59D9ED111B2F1E9F00C0A169 /* Location.h */,
+				59D9ED121B2F1E9F00C0A169 /* Location.m */,
+				59D9ECEC1B2E56FD00C0A169 /* AppDelegate.h */,
+				59D9ECED1B2E56FD00C0A169 /* AppDelegate.m */,
+				59D9ECF21B2E56FD00C0A169 /* ViewController.h */,
+				59D9ECF31B2E56FD00C0A169 /* ViewController.m */,
+				59D9ED1E1B2F877B00C0A169 /* Main 18-16-21-404.storyboard */,
+				59D9ED151B2F2D8300C0A169 /* TableViewController.h */,
+				59D9ED161B2F2D8300C0A169 /* TableViewController.m */,
+				59D9ECF81B2E56FD00C0A169 /* Images.xcassets */,
+				59D9ECFA1B2E56FD00C0A169 /* LaunchScreen.xib */,
+				59D9ECEF1B2E56FD00C0A169 /* Gelt8.xcdatamodeld */,
+				59D9ECE81B2E56FD00C0A169 /* Supporting Files */,
+			);
+			path = Gelt8;
+			sourceTree = "<group>";
+		};
+		59D9ECE81B2E56FD00C0A169 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59D9ECE91B2E56FD00C0A169 /* Info.plist */,
+				59D9ECEA1B2E56FD00C0A169 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59D9ED041B2E56FD00C0A169 /* Gelt8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59D9ED071B2E56FE00C0A169 /* Gelt8Tests.m */,
+				59D9ED051B2E56FD00C0A169 /* Supporting Files */,
+			);
+			path = Gelt8Tests;
+			sourceTree = "<group>";
+		};
+		59D9ED051B2E56FD00C0A169 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59D9ED061B2E56FD00C0A169 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2F3D3C7D8A1765630ED6B21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C83F9E4FEDAC9AB15C330A4D /* Pods.debug.xcconfig */,
+				97430EFF4AE859E4127CB333 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC289175296059F0DBA05FC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99434477605C7309D9C9B595 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59D9ECE41B2E56FD00C0A169 /* Gelt8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D9ED0B1B2E56FE00C0A169 /* Build configuration list for PBXNativeTarget "Gelt8" */;
+			buildPhases = (
+				004BBDBA31B4F84239AF008A /* Check Pods Manifest.lock */,
+				59D9ECE11B2E56FD00C0A169 /* Sources */,
+				59D9ECE21B2E56FD00C0A169 /* Frameworks */,
+				59D9ECE31B2E56FD00C0A169 /* Resources */,
+				20DA8137D75BBDA822F3A580 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gelt8;
+			productName = Gelt8;
+			productReference = 59D9ECE51B2E56FD00C0A169 /* Gelt8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59D9ED001B2E56FD00C0A169 /* Gelt8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59D9ED0E1B2E56FE00C0A169 /* Build configuration list for PBXNativeTarget "Gelt8Tests" */;
+			buildPhases = (
+				59D9ECFD1B2E56FD00C0A169 /* Sources */,
+				59D9ECFE1B2E56FD00C0A169 /* Frameworks */,
+				59D9ECFF1B2E56FD00C0A169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59D9ED031B2E56FD00C0A169 /* PBXTargetDependency */,
+			);
+			name = Gelt8Tests;
+			productName = Gelt8Tests;
+			productReference = 59D9ED011B2E56FD00C0A169 /* Gelt8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59D9ECDD1B2E56FD00C0A169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Appton;
+				TargetAttributes = {
+					59D9ECE41B2E56FD00C0A169 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					59D9ED001B2E56FD00C0A169 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 59D9ECE41B2E56FD00C0A169;
+					};
+				};
+			};
+			buildConfigurationList = 59D9ECE01B2E56FD00C0A169 /* Build configuration list for PBXProject "Gelt8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59D9ECDC1B2E56FD00C0A169;
+			productRefGroup = 59D9ECE61B2E56FD00C0A169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59D9ECE41B2E56FD00C0A169 /* Gelt8 */,
+				59D9ED001B2E56FD00C0A169 /* Gelt8Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59D9ECE31B2E56FD00C0A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D9ECFC1B2E56FD00C0A169 /* LaunchScreen.xib in Resources */,
+				59D9ED1F1B2F877B00C0A169 /* Main 18-16-21-404.storyboard in Resources */,
+				59D9ECF91B2E56FD00C0A169 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D9ECFF1B2E56FD00C0A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004BBDBA31B4F84239AF008A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20DA8137D75BBDA822F3A580 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59D9ECE11B2E56FD00C0A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D9ECEE1B2E56FD00C0A169 /* AppDelegate.m in Sources */,
+				59D9ED171B2F2D8300C0A169 /* TableViewController.m in Sources */,
+				59D9ED131B2F1EA000C0A169 /* Location.m in Sources */,
+				59D9ECF11B2E56FD00C0A169 /* Gelt8.xcdatamodeld in Sources */,
+				59D9ECF41B2E56FD00C0A169 /* ViewController.m in Sources */,
+				59D9ECEB1B2E56FD00C0A169 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59D9ECFD1B2E56FD00C0A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D9ED081B2E56FE00C0A169 /* Gelt8Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59D9ED031B2E56FD00C0A169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59D9ECE41B2E56FD00C0A169 /* Gelt8 */;
+			targetProxy = 59D9ED021B2E56FD00C0A169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59D9ECFA1B2E56FD00C0A169 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59D9ECFB1B2E56FD00C0A169 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59D9ED091B2E56FE00C0A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59D9ED0A1B2E56FE00C0A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59D9ED0C1B2E56FE00C0A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83F9E4FEDAC9AB15C330A4D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gelt8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59D9ED0D1B2E56FE00C0A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97430EFF4AE859E4127CB333 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gelt8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59D9ED0F1B2E56FE00C0A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Gelt8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gelt8.app/Gelt8";
+			};
+			name = Debug;
+		};
+		59D9ED101B2E56FE00C0A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Gelt8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gelt8.app/Gelt8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59D9ECE01B2E56FD00C0A169 /* Build configuration list for PBXProject "Gelt8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D9ED091B2E56FE00C0A169 /* Debug */,
+				59D9ED0A1B2E56FE00C0A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D9ED0B1B2E56FE00C0A169 /* Build configuration list for PBXNativeTarget "Gelt8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D9ED0C1B2E56FE00C0A169 /* Debug */,
+				59D9ED0D1B2E56FE00C0A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59D9ED0E1B2E56FE00C0A169 /* Build configuration list for PBXNativeTarget "Gelt8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59D9ED0F1B2E56FE00C0A169 /* Debug */,
+				59D9ED101B2E56FE00C0A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59D9ECEF1B2E56FD00C0A169 /* Gelt8.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59D9ECF01B2E56FD00C0A169 /* Gelt8.xcdatamodel */,
+			);
+			currentVersion = 59D9ECF01B2E56FD00C0A169 /* Gelt8.xcdatamodel */;
+			path = Gelt8.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59D9ECDD1B2E56FD00C0A169 /* Project object */;
+}
